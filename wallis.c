@@ -28,7 +28,7 @@ float wallis_pi(int n)
   for(int i=1;i<=n ;i++)
   {float e=4*i*i;
   float k=(float)e/(e-1);
-  p=p+k;
+  p=p*k;
   }return p*2;
   
 }
